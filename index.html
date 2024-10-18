@@ -28,7 +28,7 @@
         }
 
         #countdown {
-              font-size: 24px;
+            font-size: 24px;
             margin-top: 10px;
             width: 600px;
             height: 200px;
@@ -44,7 +44,6 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            flex-wrap: wrap;
         }
 
         .time-box {
@@ -76,7 +75,8 @@
             #countdown {
                 width: 90%;
                 padding: 20px;
-                margin-top: 20px;
+                margin-left: 0;
+                position: static;
             }
 
             .time-box {
@@ -93,13 +93,16 @@
             }
 
             .time-container {
-                flex-direction: row-reverse;
+                flex-direction: row; 
+                justify-content: space-between;
+                width: 100%;
+                margin: 0 auto;
             }
 
             .time-box {
-                width: 70px;
-                height: 70px;
-                font-size: 14pt;
+                width: 60px;
+                height: 60px;
+                font-size: 12pt;
                 margin: 5px;
             }
 
@@ -109,6 +112,7 @@
 
             #countdown {
                 padding: 10px;
+                width: 100%;
             }
         }
     </style>
@@ -169,4 +173,3 @@
     </script>
 </body>
 </html>
-
