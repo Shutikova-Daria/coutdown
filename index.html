@@ -9,24 +9,22 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
+            margin-top: 50px;
             background: url('https://cdn.pixabay.com/photo/2022/07/04/08/36/city-7300691_1280.jpg') no-repeat center center fixed;
+            background-repeat: no-repeat;
             background-size: cover;
         }
-
-        h2 {
+        h2{
             text-align: center;
-            margin-top: 50px;
+            margin-top: 100px;
             color: azure;
             font-size: 21pt;
             font-weight: bold;
             background-color: black;
-            padding: 10px;
+            padding-top: 10px;
             width: 100%;
-            box-sizing: border-box;
+            height: 40px;
         }
-
         #countdown {
             font-size: 24px;
             margin-top: 10px;
@@ -39,16 +37,14 @@
             padding-right: 30px;
             border-radius: 30px;
         }
-
         .time-container {
             display: flex;
             justify-content: space-around;
             align-items: center;
         }
-
         .time-box {
             background-color: azure;
-            opacity: 0.8;
+            opacity: 0.6;
             width: 100px;
             height: 100px;
             border-radius: 50px;
@@ -58,62 +54,11 @@
             align-items: center;
             font-size: 20pt;
             font-weight: bold;
-            margin: 10px;
         }
-
         .time-label {
             font-size: 12px;
             margin-top: 5px;
-        }
-
-        
-        @media only screen and (max-width: 768px) {
-            h2 {
-                font-size: 18pt;
-            }
-
-            #countdown {
-                width: 90%;
-                padding: 20px;
-                margin-left: 0;
-                position: static;
-            }
-
-            .time-box {
-                width: 80px;
-                height: 80px;
-                font-size: 16pt;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            h2 {
-                font-size: 16pt;
-                padding: 8px;
-            }
-
-            .time-container {
-                flex-direction: row; 
-                justify-content: space-between;
-                width: 100%;
-                margin: 0 auto;
-            }
-
-            .time-box {
-                width: 60px;
-                height: 60px;
-                font-size: 12pt;
-                margin: 5px;
-            }
-
-            .time-label {
-                font-size: 10px;
-            }
-
-            #countdown {
-                padding: 10px;
-                width: 100%;
-            }
+            
         }
     </style>
 </head>
